@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Nivel de estrés</h1>
+
+        <form id="prediccionForm">
+            <div class="input-box">
+                <input type="number" id="edad" name="edad" placeholder="Edad" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" id="sexo" name="sexo" placeholder="Sexo" required>
+            </div>
+
+            <button type="button" class="btn" onclick="predecir()">Predecir Nivel de Estrés</button>
+        </form>
+
+        <div id="resultado-container"></div>
+    </div>
+</body>
+</html>
